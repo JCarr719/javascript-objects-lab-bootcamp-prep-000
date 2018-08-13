@@ -8,5 +8,5 @@ newObj[key]=value
 return newObj
 }
 function destructivelyUdateObjectWithKeyAndValue(object,key,value){
-  return 
+  object.key='value'
 }
