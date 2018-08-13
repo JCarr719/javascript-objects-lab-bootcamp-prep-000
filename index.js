@@ -7,6 +7,6 @@ var newObj = Object.assign({},object)
 newObj[key]=value
 return newObj
 }
-function destructivelyUdateObjectWithKeyAndValue(object,key,value){
+function destructivelyUpdateObjectWithKeyAndValue(object,key,value){
   object[key]='value'
 }
